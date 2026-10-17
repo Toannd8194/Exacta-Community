@@ -1,0 +1,13 @@
+name: exa-doc-song-ngu
+version: 0.1.0
+description: >
+  Vietnamese overlay manifest. Loads fork language policy and the medical
+  glossary, then defers to nature-reader with Vietnamese as the translation
+  language.
+
+base_skill: nature-reader
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/medical-glossary-vi-en.md

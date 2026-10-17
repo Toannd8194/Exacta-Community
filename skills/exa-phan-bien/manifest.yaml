@@ -1,0 +1,21 @@
+name: exa-phan-bien
+version: 0.1.0
+description: >
+  Vietnamese overlay manifest. Loads the fork language and privacy policies plus
+  review gates for manuscripts by Vietnamese clinical authors, then defers to the
+  nature-reviewer skill for the full mutually blind review workflow.
+
+base_skill: nature-reviewer
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/privacy-offline.md
+  - references/vn-manuscript-review-gates.md
+
+references:
+  on_demand:
+    - condition: checking English grammar, tense, articles, or claim strength typical of Vietnamese authors
+      path: ../nature-shared/vn/vi-to-en.md
+    - condition: translating terminology between Vietnamese and English in the report or summary
+      path: ../nature-shared/vn/medical-glossary-vi-en.md

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Đề cương"
+  short_description: "Vietnamese research proposals and thesis outlines"
+  default_prompt: "Use $exa-de-cuong to draft a Vietnamese master's thesis proposal for my clinical study."

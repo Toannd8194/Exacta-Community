@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Phúc đáp"
+  short_description: "Reviewer responses with a Vietnamese action plan"
+  default_prompt: "Use $exa-phuc-dap to draft point-by-point responses to these reviewer comments with a Vietnamese plan."

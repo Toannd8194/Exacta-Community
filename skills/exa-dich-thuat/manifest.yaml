@@ -1,0 +1,15 @@
+name: exa-dich-thuat
+version: 0.1.0
+description: >
+  Vietnamese overlay manifest. Loads fork language and privacy policies, the
+  Vietnamese-to-English repair layer, and the medical glossary, then defers to
+  nature-polishing with the language axis fixed to en.
+
+base_skill: nature-polishing
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/privacy-offline.md
+  - ../nature-shared/vn/vi-to-en.md
+  - ../nature-shared/vn/medical-glossary-vi-en.md

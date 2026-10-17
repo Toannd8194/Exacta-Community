@@ -1,0 +1,19 @@
+name: exa-trinh-chieu
+version: 0.1.0
+description: >
+  Vietnamese overlay manifest. Loads fork language and privacy policies and the
+  Vietnamese presentation arcs, then defers to nature-paper2ppt with Vietnamese
+  as the default slide language.
+
+base_skill: nature-paper2ppt
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/privacy-offline.md
+  - references/vn-presentation-arcs.md
+
+references:
+  on_demand:
+    - condition: translating slide terms, captions, or speaker notes between Vietnamese and English
+      path: ../nature-shared/vn/medical-glossary-vi-en.md

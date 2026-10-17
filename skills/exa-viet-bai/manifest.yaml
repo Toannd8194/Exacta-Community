@@ -1,0 +1,19 @@
+name: exa-viet-bai
+version: 0.1.0
+description: >
+  Vietnamese overlay manifest. Loads fork language and privacy policies and the
+  Vietnamese-to-English drafting layer, then defers to nature-writing with the
+  language axis fixed to en.
+
+base_skill: nature-writing
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/privacy-offline.md
+  - ../nature-shared/vn/vi-to-en.md
+
+references:
+  on_demand:
+    - condition: translating clinical or statistical terms between Vietnamese and English
+      path: ../nature-shared/vn/medical-glossary-vi-en.md

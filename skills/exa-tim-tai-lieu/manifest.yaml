@@ -1,0 +1,22 @@
+name: exa-tim-tai-lieu
+version: 0.1.0
+description: >
+  Vietnamese overlay manifest. Loads fork language and privacy policies, then
+  defers to nature-academic-search. Adds Vietnamese PICO intake, MeSH mapping,
+  Vietnamese literature sources, and reference-check rules for Vietnamese citations.
+
+base_skill: nature-academic-search
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/privacy-offline.md
+
+references:
+  on_demand:
+    - condition: the research question or keywords are in Vietnamese, local Vietnamese literature is needed, or a reference list contains Vietnamese sources
+      path: references/pico-to-mesh-vn.md
+    - condition: finding supporting references for each claim in a draft, building a claim-to-source table, or exporting references to Zotero, EndNote, or Mendeley (RIS/BibTeX)
+      path: references/claim-citation.md
+    - condition: translating clinical concepts from Vietnamese to English before MeSH mapping
+      path: ../nature-shared/vn/medical-glossary-vi-en.md

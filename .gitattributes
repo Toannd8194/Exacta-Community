@@ -1,0 +1,7 @@
+# Keep Markdown stable across GitHub's web editor, macOS, Linux, and Windows.
+*.md text eol=lf
+
+# Exacta fork: always keep the fork's root READMEs when merging upstream.
+# Requires: git config merge.ours.driver true (set by scripts/vn-sync-upstream.ps1).
+/README.md merge=ours
+/README_EN.md merge=ours

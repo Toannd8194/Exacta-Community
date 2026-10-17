@@ -1,0 +1,22 @@
+name: exa-ve-hinh
+version: 0.1.0
+description: >
+  Vietnamese overlay manifest. Loads fork language and privacy policies, then
+  defers to nature-figure (local Python/R or hand-built SVG only). Adds a clinical
+  figure catalogue and Vietnamese thesis figure conventions.
+
+base_skill: nature-figure
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/privacy-offline.md
+
+references:
+  on_demand:
+    - condition: Kaplan-Meier, forest plot, ROC, CONSORT or STROBE flow diagram, Bland-Altman, calibration, or proportion charts for clinical studies
+      path: references/clinical-figure-catalog.md
+    - condition: figures for a Vietnamese thesis, proposal, or Vietnamese-language journal, or any figure with Vietnamese labels
+      path: references/vn-figure-conventions.md
+    - condition: translating axis labels, legends, or captions between Vietnamese and English
+      path: ../nature-shared/vn/medical-glossary-vi-en.md

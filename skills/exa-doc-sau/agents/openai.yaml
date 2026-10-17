@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Đọc sâu"
+  short_description: "Vietnamese deep-reading cards for one paper"
+  default_prompt: "Use $exa-doc-sau to build a Vietnamese paper card for this clinical trial."

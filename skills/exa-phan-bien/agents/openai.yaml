@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Phản biện"
+  short_description: "Mock peer review for Vietnamese clinical authors"
+  default_prompt: "Use $exa-phan-bien to run mutually blind mock reviews of my manuscript and summarise actions in Vietnamese."

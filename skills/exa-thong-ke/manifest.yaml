@@ -1,0 +1,20 @@
+name: exa-thong-ke
+version: 0.1.0
+description: >
+  Vietnamese overlay manifest. Loads fork language and privacy policies, then
+  defers to nature-statistics. Adds sample-size and design-matching guidance for
+  study types common in Vietnamese clinical theses and proposals.
+
+base_skill: nature-statistics
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/privacy-offline.md
+
+references:
+  on_demand:
+    - condition: stating, checking, or computing a sample size, or matching a formula, sampling method, and statistical test to a study objective
+      path: references/vn-sample-size-and-designs.md
+    - condition: translating statistical terms between Vietnamese and English
+      path: ../nature-shared/vn/medical-glossary-vi-en.md

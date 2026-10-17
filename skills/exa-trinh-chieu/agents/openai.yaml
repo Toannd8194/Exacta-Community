@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Trình chiếu"
+  short_description: "Vietnamese slides for journal club and defences"
+  default_prompt: "Use $exa-trinh-chieu to build Vietnamese thesis defence slides from my thesis chapters."

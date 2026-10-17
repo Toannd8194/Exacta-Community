@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Dịch thuật"
+  short_description: "Translate and polish Vietnamese-to-English prose"
+  default_prompt: "Use $exa-dich-thuat to translate this Vietnamese paragraph into Nature-style English and list terminology."

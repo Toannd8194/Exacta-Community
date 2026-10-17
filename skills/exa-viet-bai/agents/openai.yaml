@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Viết bài"
+  short_description: "Draft English manuscripts from Vietnamese notes"
+  default_prompt: "Use $exa-viet-bai to draft an English introduction from my Vietnamese notes and thesis chapter."

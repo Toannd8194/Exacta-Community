@@ -1,0 +1,13 @@
+name: exa-doc-sau
+version: 0.1.0
+description: >
+  Vietnamese overlay manifest. Loads fork language policy and the medical
+  glossary, then defers to nature-paper-card. Adds a Vietnamese applicability
+  section and a clinical design and risk-of-bias line.
+
+base_skill: nature-paper-card
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/medical-glossary-vi-en.md

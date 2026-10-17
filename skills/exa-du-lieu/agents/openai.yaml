@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Dữ liệu"
+  short_description: "Data availability statements for clinical data"
+  default_prompt: "Use $exa-du-lieu to draft a Data Availability statement for my hospital-based cohort study."

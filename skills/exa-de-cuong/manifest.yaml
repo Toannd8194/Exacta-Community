@@ -1,0 +1,18 @@
+name: exa-de-cuong
+version: 0.1.0
+description: >
+  Manifest for Vietnamese health-science research proposals, thesis documents,
+  and ethics dossiers. Replaces the frozen nature-proposal-writer.
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/privacy-offline.md
+  - references/document-templates.md
+
+references:
+  on_demand:
+    - condition: drafting or revising objectives, variables, design, sampling, data collection, bias control, analysis plan, or ethics sections
+      path: references/objectives-and-methods.md
+    - condition: translating terms or writing English abstracts and titles for the document
+      path: ../nature-shared/vn/medical-glossary-vi-en.md

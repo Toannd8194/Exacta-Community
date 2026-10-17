@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Thống kê"
+  short_description: "Statistics and sample-size audit for VN studies"
+  default_prompt: "Use $exa-thong-ke to check the sample size and statistical reporting in my proposal and explain in Vietnamese."

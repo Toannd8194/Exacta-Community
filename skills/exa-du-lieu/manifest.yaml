@@ -1,0 +1,18 @@
+name: exa-du-lieu
+version: 0.1.0
+description: >
+  Vietnamese overlay manifest. Loads fork language and privacy policies, then
+  defers to nature-data. Adds restricted-access patterns for Vietnamese clinical
+  data and thesis data management plans.
+
+base_skill: nature-data
+
+always_load:
+  - ../nature-shared/vn/language-policy.md
+  - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/privacy-offline.md
+
+references:
+  on_demand:
+    - condition: the study includes patient-level or hospital data, the data cannot be public, or a thesis or proposal needs a data management plan
+      path: references/vn-clinical-data-sharing.md

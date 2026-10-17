@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Đọc song ngữ"
+  short_description: "Vietnamese-English bilingual paper readers"
+  default_prompt: "Use $exa-doc-song-ngu to build a Vietnamese-English bilingual reader for this PDF."

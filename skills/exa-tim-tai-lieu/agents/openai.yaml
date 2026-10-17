@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exacta · Tìm tài liệu"
+  short_description: "PICO to PubMed/MeSH search and reference checks"
+  default_prompt: "Use $exa-tim-tai-lieu to turn my Vietnamese clinical question into a PubMed MeSH search strategy."
