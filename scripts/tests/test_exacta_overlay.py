@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import re
 import unittest
 from pathlib import Path
@@ -30,7 +31,10 @@ class VietnameseOverlayContractTests(unittest.TestCase):
             "exa-phan-bien", "exa-thong-ke", "exa-viet-bai",
             "exa-ve-hinh", "exa-trinh-chieu", "exa-du-lieu",
         }
-        self.assertEqual(names, expected)
+        self.assertTrue(expected <= names, expected - names)
+        for extra in names - expected:  # edition-only skills declare their edition
+            with self.subTest(skill=extra):
+                self.assertIn("edition: pro", (SKILLS / extra / "SKILL.md").read_text(encoding="utf-8"))
 
     def test_no_chinese_text_in_vn_layer(self):
         offenders = []

@@ -10,4 +10,5 @@ base_skill: nature-paper-card
 always_load:
   - ../nature-shared/vn/language-policy.md
   - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/integrity-baseline.md
   - ../nature-shared/vn/medical-glossary-vi-en.md

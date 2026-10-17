@@ -19,6 +19,7 @@ thảo, phản biện trước khi nộp và trình bày kết quả. Người d
 | Nguyên tắc | Exacta thực hiện như thế nào |
 |---|---|
 | **Dựa trên bằng chứng** | Chỉ sử dụng dữ kiện do tác giả cung cấp hoặc tài liệu đã thẩm định. Không tạo ra số liệu, tài liệu tham khảo, mã DOI hay số quyết định; thông tin còn thiếu được đánh dấu `[CẦN BỔ SUNG]`. |
+| **Liêm chính học thuật** | Viết từ ghi chú và lập luận của tác giả, tổng hợp nhiều nguồn và trích dẫn đầy đủ; không dịch rồi chép, không dùng thủ thuật che giấu nội dung vay mượn. |
 | **Minh bạch, kiểm chứng được** | Mỗi trích dẫn kèm PMID/DOI và mức độ hỗ trợ cho luận điểm (trực tiếp, một phần, không hỗ trợ, mâu thuẫn). Mỗi công thức cỡ mẫu được trình bày đủ tham số và nguồn. |
 | **Theo chuẩn báo cáo quốc tế** | Đối chiếu bản thảo với STROBE, CONSORT, STARD, CARE, PRISMA, TRIPOD; kiểm soát ngôn ngữ nhân quả theo đúng thiết kế nghiên cứu. |
 | **Phù hợp bối cảnh Việt Nam** | Quy chuẩn trình bày được đối chiếu với luận văn thạc sĩ và bài báo khoa học đã được thông qua: cấu trúc chương theo mục tiêu, "Nhận xét" sau mỗi bảng, vị trí tên bảng và hình, kiểu trích dẫn; bảng thuật ngữ y khoa Việt–Anh; xuất file Word. |
@@ -103,6 +104,7 @@ Bản Community đáp ứng đầy đủ công việc hằng ngày của một n
 | `exa-phan-bien` | Một báo cáo phản biện đầy đủ | Ba phản biện độc lập, tổng hợp, kiểm tra số liệu chuyên sâu |
 | `exa-phuc-dap` | Phân loại toàn bộ ý kiến, trả lời tối đa 5 ý kiến mỗi lần | Trọn bộ thư phúc đáp và thư gửi biên tập |
 | `exa-trinh-chieu` | Dàn ý slide kèm lời thuyết trình | File PPTX hoàn chỉnh, khung bảo vệ đề cương/luận văn/luận án |
+| Chống đạo văn | Quy tắc liêm chính áp dụng mặc định cho mọi skill viết | Tự kiểm tra trùng lặp ngay trên máy theo ngưỡng Turnitin/DoIT, kiểm tra và sửa đạo văn cho bản thảo có sẵn |
 | File Word | Bố cục chung, tự chỉnh lề và giãn dòng theo quy định | Đúng mẫu luận văn và mẫu tạp chí: bìa, mục lục, số trang, kiểu trích dẫn |
 | Các skill khác | Đầy đủ chức năng chính | Một số chế độ nâng cao (xử lý theo lô, phân tích dữ liệu thô, sơ đồ CONSORT...) |
 

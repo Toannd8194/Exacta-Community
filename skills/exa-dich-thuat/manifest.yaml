@@ -10,6 +10,7 @@ base_skill: nature-polishing
 always_load:
   - ../nature-shared/vn/language-policy.md
   - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/integrity-baseline.md
   - ../nature-shared/vn/privacy-offline.md
   - ../nature-shared/vn/vi-to-en.md
   - ../nature-shared/vn/medical-glossary-vi-en.md

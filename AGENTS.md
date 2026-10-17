@@ -73,6 +73,10 @@ identifier mode (`--doi`, `--pmid`); never run it with `--text`, `--text-file`, 
 
 ## 5. Evidence discipline
 
+- Every skill that writes submittable text follows
+  `skills/nature-shared/vn/integrity-baseline.md`: write from notes, synthesise and cite, never
+  translate-and-copy, never disguise borrowed text to lower a similarity score.
+
 - Never invent data, statistics, references, DOIs, ethics approval numbers, regulation numbers,
   or reviewer identities. If something is missing, mark it `[CẦN BỔ SUNG: ...]` and ask.
 - Vietnamese legal or regulatory citations (Ministry of Health or Ministry of Education

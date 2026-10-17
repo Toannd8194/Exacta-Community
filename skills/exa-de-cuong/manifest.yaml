@@ -7,6 +7,7 @@ description: >
 always_load:
   - ../nature-shared/vn/language-policy.md
   - ../nature-shared/vn/community-edition.md
+  - ../nature-shared/vn/integrity-baseline.md
   - ../nature-shared/vn/privacy-offline.md
   - references/document-templates.md
 

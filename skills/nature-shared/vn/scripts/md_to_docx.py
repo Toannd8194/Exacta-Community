@@ -348,6 +348,10 @@ def convert(src: Path, dst: Path, profile_name: str) -> list[str]:
 
 
 def main() -> int:
+    # Vietnamese output must not crash on Windows consoles that are not UTF-8.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("input", nargs="?", type=Path)
     parser.add_argument("output", nargs="?", type=Path)
