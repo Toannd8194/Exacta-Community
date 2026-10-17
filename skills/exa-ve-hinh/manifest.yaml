@@ -14,6 +14,8 @@ always_load:
 
 references:
   on_demand:
+    - condition: captioning or numbering figures and tables, or placing figures in a thesis or Vietnamese-language article
+      path: ../nature-shared/vn/formatting-profiles.md
     - condition: Kaplan-Meier, forest plot, ROC, CONSORT or STROBE flow diagram, Bland-Altman, calibration, or proportion charts for clinical studies
       path: references/clinical-figure-catalog.md
     - condition: figures for a Vietnamese thesis, proposal, or Vietnamese-language journal, or any figure with Vietnamese labels

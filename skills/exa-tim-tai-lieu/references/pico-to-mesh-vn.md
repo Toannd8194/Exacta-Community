@@ -64,6 +64,6 @@ Apply the base skill's citation-verification workflow, plus:
 | Vietnamese thesis or textbook | Check author, title, institution/publisher, year format; mark as unverifiable online |
 | Author names | Vietnamese names keep full form in Vancouver style used by Vietnamese journals (for example "Nguyễn Văn A") unless the target journal requires family-name-plus-initials; state which rule is applied |
 | Reference cannot be found anywhere | Flag as possibly fabricated or mis-cited; never "repair" it by inventing details |
-| Style | Ask which style the target uses (Vancouver is common in Vietnamese medical schools); do not assume |
+| Style | Default to AMA/Vancouver with DOI (as in the reference thesis and article in `../../nature-shared/vn/formatting-profiles.md`); Vietnamese sources list full Vietnamese names and end the author list with "và cs.". Confirm the target's rule when the user has it |
 
 Output a table: `# | Trạng thái (Đúng / Sai trường / Không xác minh được / Không tìm thấy) | Trường lệch | Đề xuất sửa`.

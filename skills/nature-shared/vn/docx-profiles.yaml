@@ -1,0 +1,21 @@
+# Word (.docx) layout profiles used by nature-shared/vn/scripts/md_to_docx.py.
+# Units: cm for page geometry, pt for font sizes, line_spacing is a multiple (1.5 = 1.5 lines).
+
+profiles:
+  generic:
+    description: Clean general-purpose layout. Adjust margins and spacing to your institution's rules before submission.
+    page: {size: A4, margins: {top: 2.5, bottom: 2.5, left: 2.5, right: 2.5}}
+    font: {name: Times New Roman, size: 13}
+    paragraph: {line_spacing: 1.15, align: justify, space_after: 6, first_line_indent: 0}
+    headings:
+      1: {size: 14, bold: true, align: center, upper: true}
+      2: {size: 13, bold: true, align: left}
+      3: {size: 13, bold: true, italic: true, align: left}
+    table: {font_size: 12, line_spacing: 1.0}
+    table_caption: {position: above, bold: true, italic: false, align: center}
+    figure_caption: {position: below, bold: true, italic: true, align: center}
+    page_number: footer
+    citations: as-written
+    toc: false
+    front: none
+

@@ -19,7 +19,7 @@ from dataclasses import dataclass
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SKILLS_DIR = ROOT / "skills"
 README_FILES = (ROOT / "README.md", ROOT / "README_EN.md")
-SKILL_LINK_RE = re.compile(r"\[`((?:nature|exa)-[^`]+)`\]\(skills/([^/)]+)/README(?:_EN)?\.md\)")
+SKILL_LINK_RE = re.compile(r"\[`((?:nature|p?exa(?:cta)?)-[^`]+)`\]\(skills/([^/)]+)/README(?:_EN)?\.md\)")
 BADGE_RE = re.compile(r"badge/skills-(\d+)-")
 EXCLUDED_INDEX_DIRS = {"nature-shared"}
 EXCLUDED_LINK_DIRS = {"nature-shared", "nature-<topic>"}

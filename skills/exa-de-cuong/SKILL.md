@@ -68,5 +68,11 @@ lines in step 5 apply in full.
 
 ### 6. Delivery
 
-Deliver the document in Markdown (or DOCX through the user's tooling if requested), followed by
-a short Vietnamese list of open gaps and decisions the supervisor must confirm.
+Follow the thesis conventions in `../nature-shared/vn/formatting-profiles.md` (front matter,
+chapter structure by objective, "Nhận xét:" after each table or chart, caption placement,
+citation style) unless the institution's own template says otherwise.
+
+Write the document in Markdown, then export it to Word with
+`../nature-shared/vn/scripts/md_to_docx.py` using the profile named in
+`formatting-profiles.md` § Word export. Deliver both files, the export warnings, and a short
+Vietnamese list of open gaps and decisions the supervisor must confirm.

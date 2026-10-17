@@ -14,6 +14,8 @@ always_load:
 
 references:
   on_demand:
+    - condition: writing result tables, statistics sections, or table captions for a thesis or Vietnamese-language article
+      path: ../nature-shared/vn/formatting-profiles.md
     - condition: stating, checking, or computing a sample size, or matching a formula, sampling method, and statistical test to a study objective
       path: references/vn-sample-size-and-designs.md
     - condition: translating statistical terms between Vietnamese and English

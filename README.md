@@ -21,7 +21,7 @@ thảo, phản biện trước khi nộp và trình bày kết quả. Người d
 | **Dựa trên bằng chứng** | Chỉ sử dụng dữ kiện do tác giả cung cấp hoặc tài liệu đã thẩm định. Không tạo ra số liệu, tài liệu tham khảo, mã DOI hay số quyết định; thông tin còn thiếu được đánh dấu `[CẦN BỔ SUNG]`. |
 | **Minh bạch, kiểm chứng được** | Mỗi trích dẫn kèm PMID/DOI và mức độ hỗ trợ cho luận điểm (trực tiếp, một phần, không hỗ trợ, mâu thuẫn). Mỗi công thức cỡ mẫu được trình bày đủ tham số và nguồn. |
 | **Theo chuẩn báo cáo quốc tế** | Đối chiếu bản thảo với STROBE, CONSORT, STARD, CARE, PRISMA, TRIPOD; kiểm soát ngôn ngữ nhân quả theo đúng thiết kế nghiên cứu. |
-| **Phù hợp bối cảnh Việt Nam** | Cấu trúc đề cương cấp cơ sở, luận văn thạc sĩ, CKI/CKII, BSNT; quy ước trình bày hình, bảng, số thập phân; bảng thuật ngữ y khoa Việt–Anh. |
+| **Phù hợp bối cảnh Việt Nam** | Quy chuẩn trình bày được đối chiếu với luận văn thạc sĩ và bài báo khoa học đã được thông qua: cấu trúc chương theo mục tiêu, "Nhận xét" sau mỗi bảng, vị trí tên bảng và hình, kiểu trích dẫn; bảng thuật ngữ y khoa Việt–Anh; xuất file Word. |
 | **Bảo mật dữ liệu người bệnh** | Bản thảo và dữ liệu không rời khỏi máy người dùng; tự rà thông tin định danh trước khi phân tích; truy cập mạng chỉ để tra cứu thư mục bằng từ khóa và mã định danh công khai. |
 
 ## 2. Hỗ trợ học thuật cho mọi người
@@ -103,6 +103,7 @@ Bản Community đáp ứng đầy đủ công việc hằng ngày của một n
 | `exa-phan-bien` | Một báo cáo phản biện đầy đủ | Ba phản biện độc lập, tổng hợp, kiểm tra số liệu chuyên sâu |
 | `exa-phuc-dap` | Phân loại toàn bộ ý kiến, trả lời tối đa 5 ý kiến mỗi lần | Trọn bộ thư phúc đáp và thư gửi biên tập |
 | `exa-trinh-chieu` | Dàn ý slide kèm lời thuyết trình | File PPTX hoàn chỉnh, khung bảo vệ đề cương/luận văn/luận án |
+| File Word | Bố cục chung, tự chỉnh lề và giãn dòng theo quy định | Đúng mẫu luận văn và mẫu tạp chí: bìa, mục lục, số trang, kiểu trích dẫn |
 | Các skill khác | Đầy đủ chức năng chính | Một số chế độ nâng cao (xử lý theo lô, phân tích dữ liệu thô, sơ đồ CONSORT...) |
 
 ## 6. Danh mục skill

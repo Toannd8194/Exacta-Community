@@ -18,7 +18,10 @@ ask for it when the figure is for a thesis.
     diagrams (for example the participant flow diagram).
 - Common default placement: figure captions **below** the figure, table titles **above** the
   table. Confirm with the institution's rule.
-- Caption pattern: `Biểu đồ 3.1. Phân bố người bệnh theo nhóm tuổi (n = 210)`.
+- Caption pattern: `Biểu đồ 3.1. Phân bố người bệnh theo nhóm tuổi (n = 210)`. Figure captions
+  are bold italic and centred; table titles are bold and centred.
+- In thesis results, follow each chart with a "Nhận xét:" paragraph (main finding with numbers,
+  no interpretation). See `../../nature-shared/vn/formatting-profiles.md`.
 - Reused or adapted figures carry a source line: `Nguồn: [Tác giả] ([năm]) [số TLTK]`.
 - Do not put the caption inside the image file when the thesis template places captions in Word;
   deliver caption text separately.

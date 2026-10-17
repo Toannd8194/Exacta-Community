@@ -12,6 +12,8 @@ always_load:
 
 references:
   on_demand:
+    - condition: drafting, outlining, or exporting a proposal or thesis document, or checking its structure, captions, citations, or layout
+      path: ../nature-shared/vn/formatting-profiles.md
     - condition: drafting or revising objectives, variables, design, sampling, data collection, bias control, analysis plan, or ethics sections
       path: references/objectives-and-methods.md
     - condition: translating terms or writing English abstracts and titles for the document

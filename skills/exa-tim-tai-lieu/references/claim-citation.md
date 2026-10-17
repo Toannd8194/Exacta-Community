@@ -75,7 +75,9 @@ never fabricate fields for them.
 ## Output
 
 1. Claim → source table: `ID | Luận điểm | Nguồn đề xuất (tác giả, năm, tạp chí, PMID/DOI) | Mức hỗ trợ | Ghi chú`
-2. Suggested citation markers in the draft (numbered, Vancouver by default unless told otherwise)
+2. Suggested citation markers in the draft, numbered in order of first citation, written as
+   `[n]` (the Word export renders superscript for theses and brackets for Tạp chí Y học Cộng
+   đồng; see `../../nature-shared/vn/formatting-profiles.md` § Citations and references)
 3. Path of the exported RIS/BibTeX file
 4. **Luận điểm chưa có nguồn**: claims that found no direct support, with a suggestion to supply
    a source, narrow the wording, or remove the claim

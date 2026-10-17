@@ -15,5 +15,7 @@ always_load:
 
 references:
   on_demand:
+    - condition: writing an article for a Vietnamese-language journal (for example Tạp chí Y học Cộng đồng), or exporting any manuscript to Word
+      path: ../nature-shared/vn/formatting-profiles.md
     - condition: translating clinical or statistical terms between Vietnamese and English
       path: ../nature-shared/vn/medical-glossary-vi-en.md

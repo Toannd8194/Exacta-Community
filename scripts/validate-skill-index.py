@@ -63,7 +63,7 @@ def main() -> int:
         errors.append("README.md and README_EN.md index skill order differs")
 
     expected = expected_skill_list(skills)
-    if zh_names != expected:
+    if sorted(zh_names) != expected:  # fork: grouped index (Vietnamese skills first) is allowed
         missing = [s for s in expected if s not in zh_names]
         extra = [s for s in zh_names if s not in expected]
         if missing:

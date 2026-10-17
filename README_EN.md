@@ -21,7 +21,7 @@ Vietnamese; outputs meet international journal standards and Vietnamese presenta
 | **Evidence-based** | Uses only facts supplied by the author or appraised sources. Never generates data, references, DOIs, or approval numbers; missing information is marked `[CẦN BỔ SUNG]`. |
 | **Transparent and verifiable** | Every citation carries a PMID/DOI and a support grade (direct, partial, unsupported, contradicting). Every sample-size formula shows all inputs and their sources. |
 | **International reporting standards** | Checks manuscripts against STROBE, CONSORT, STARD, CARE, PRISMA, TRIPOD; keeps causal language consistent with the study design. |
-| **Fit for Vietnamese research** | Structures for institutional projects, master's, specialist (CKI/CKII), and residency theses; local figure, table, and decimal conventions; a Vietnamese–English medical glossary. |
+| **Fit for Vietnamese research** | Presentation conventions checked against an accepted master's thesis and an accepted research article: chapters organised by objective, a "Nhận xét" after each table, caption placement, citation style; a Vietnamese–English medical glossary; Word export. |
 | **Patient data protection** | Manuscripts and data stay on the user's machine; identifiers are screened before analysis; network use is limited to bibliographic lookups by keyword and public identifier. |
 
 ## 2. Academic support for everyone
@@ -103,6 +103,7 @@ Community covers an individual's day-to-day work in full. These modes are part o
 | `exa-phan-bien` | One complete referee report | Three independent reviewers, synthesis, in-depth numeric audit |
 | `exa-phuc-dap` | Triage of all comments, replies to up to 5 comments per request | Complete response package and cover letter |
 | `exa-trinh-chieu` | Slide outline with speaker notes | Finished PPTX, proposal/thesis/doctoral defence arcs |
+| Word files | General layout; adjust margins and spacing to your rules | Exact thesis and journal layouts: covers, TOC, page numbers, citation style |
 | Other skills | Full core functionality | Some advanced modes (batch processing, raw-data analysis, CONSORT diagrams, ...) |
 
 ## 6. Skill catalogue

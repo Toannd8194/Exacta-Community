@@ -45,6 +45,12 @@ the multivariable model check, and the common-errors audit for Vietnamese theses
 Pro capabilities; if requested, follow `../nature-shared/vn/community-edition.md`. Never ask
 the user to send raw data elsewhere.
 
+### Result tables
+
+For theses and Vietnamese-language articles, use the column headers, caption placement, decimal
+comma, and "Nhận xét:" convention in `../nature-shared/vn/formatting-profiles.md` § Tables,
+figures, and comments.
+
 ### Output format
 
 End every audit with:

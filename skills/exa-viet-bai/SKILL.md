@@ -32,6 +32,15 @@ Converting a whole thesis or dissertation into a journal article is an Exacta Pr
 if requested, draft the sections the user supplies and follow
 `../nature-shared/vn/community-edition.md`.
 
+### Vietnamese-language journal mode
+
+When the target is a Vietnamese-language journal (for example Tạp chí Y học Cộng đồng), write the
+article in Vietnamese following `../nature-shared/vn/formatting-profiles.md` § Vietnamese journal
+article conventions: structured TÓM TẮT and SUMMARY, numbered sections 1–5, tables numbered
+across the article with an interpretive sentence after each, bracket citations. Export to Word
+with `../nature-shared/vn/scripts/md_to_docx.py` and the profile named in that file. The
+journal's current author guide always wins; ask the user for it when available.
+
 ### Evidence boundary
 
 Use only facts, numbers, and references the author supplied. Missing values become

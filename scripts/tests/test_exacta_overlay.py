@@ -99,6 +99,29 @@ class VietnameseOverlayContractTests(unittest.TestCase):
                     except SystemExit as exc:
                         self.fail(str(exc))
 
+    def test_docx_export_generic_profile(self):
+        try:
+            import docx  # noqa: F401
+        except ImportError:
+            self.skipTest("python-docx not installed")
+        import subprocess
+        import sys
+        import tempfile
+
+        script = VN_SHARED / "scripts" / "md_to_docx.py"
+        with tempfile.TemporaryDirectory() as tmp:
+            src = Path(tmp) / "in.md"
+            out = Path(tmp) / "out.docx"
+            src.write_text("# KẾT QUẢ\n\nBảng 3.1. Mẫu (n = 2)\n| A | B |\n|---|---|\n| 1 | 2 |\n\n"
+                           "Nhận xét: mẫu [1,2].\n", encoding="utf-8")
+            result = subprocess.run([sys.executable, str(script), str(src), str(out), "--profile", "generic"],
+                                    capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertTrue(out.is_file())
+            document = docx.Document(str(out))
+            self.assertEqual(len(document.tables), 1)
+            self.assertTrue(any(p.text.startswith("Bảng 3.1.") for p in document.paragraphs))
+
     def test_rules_files_present(self):
         for rel in ("AGENTS.md", "CLAUDE.md", "frozen/FROZEN.md"):
             with self.subTest(file=rel):
