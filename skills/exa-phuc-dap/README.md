@@ -8,7 +8,7 @@ Soạn, rà soát hoặc sửa thư trả lời phản biện và thư gửi bi�
 
 Lớp phủ tiếng Việt của [`nature-response`](../nature-response/README_EN.md): nạp skill gốc rồi áp dụng các quy tắc tiếng Việt.
 
-> Bản Community: phân loại toàn bộ ý kiến và trả lời tối đa 5 ý kiến mỗi lần. Trọn bộ thư phúc đáp và thư gửi biên tập có trong Exacta Pro.
+> Bản Community: phân loại toàn bộ ý kiến và trả lời tối đa 5 ý kiến mỗi lần. Skill nền `nature-response` vẫn soạn trọn bộ thư theo chuẩn chung. Bản Pro soạn trọn bộ thư phúc đáp, thư gửi biên tập và bản thảo đánh dấu kèm kế hoạch, bảng tự kiểm tiếng Việt.
 
 ## Ví dụ sử dụng
 

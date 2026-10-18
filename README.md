@@ -96,17 +96,22 @@ Liên hệ: [facebook.com/dutonezo](https://www.facebook.com/dutonezo)
   trường đại học, nhóm nghiên cứu. Bản Pro gồm đầy đủ mọi chế độ của 12 skill, tùy biến theo
   quy định trình bày của từng đơn vị, cài đặt, đào tạo và hỗ trợ vận hành, với chi phí nhỏ.
 
-Bản Community đáp ứng đầy đủ công việc hằng ngày của một người. Những chế độ sau thuộc bản Pro:
+Bản Community gồm hai lớp. **Bộ máy nền** (13 skill gốc `nature-*`) có đầy đủ và gọi trực tiếp
+được, theo chuẩn tạp chí quốc tế chung. **Lớp Việt hóa** (12 skill `exa-*`) bổ sung tiêu chí
+trong nước, giải thích và kế hoạch bằng tiếng Việt; một số chế độ của lớp này thuộc bản Pro:
 
 | Skill | Bản Community | Bổ sung ở bản Pro |
 |---|---|---|
-| `exa-de-cuong` | Dàn ý chi tiết, bảng đối chiếu mục tiêu – thiết kế – cỡ mẫu | Soạn toàn văn, rà soát, luận án tiến sĩ, hồ sơ đạo đức, mẫu riêng từng đơn vị |
-| `exa-phan-bien` | Một báo cáo phản biện đầy đủ | Ba phản biện độc lập, tổng hợp, kiểm tra số liệu chuyên sâu |
-| `exa-phuc-dap` | Phân loại toàn bộ ý kiến, trả lời tối đa 5 ý kiến mỗi lần | Trọn bộ thư phúc đáp và thư gửi biên tập |
-| `exa-trinh-chieu` | Dàn ý slide kèm lời thuyết trình | File PPTX hoàn chỉnh, khung bảo vệ đề cương/luận văn/luận án |
-| Chống đạo văn | Quy tắc liêm chính áp dụng mặc định cho mọi skill viết | Tự kiểm tra trùng lặp ngay trên máy theo ngưỡng Turnitin/DoIT, kiểm tra và sửa đạo văn cho bản thảo có sẵn |
+| `exa-de-cuong` | Dàn ý chi tiết, bảng đối chiếu mục tiêu – thiết kế – cỡ mẫu | Soạn toàn văn, rà soát theo bảng kiểm, đề cương luận án tiến sĩ, hồ sơ hội đồng đạo đức |
+| `exa-phan-bien` | Một báo cáo phản biện theo tiêu chí trong nước; `nature-reviewer` cho ba phản biện độc lập theo chuẩn quốc tế chung | Ba phản biện và tổng hợp đều theo tiêu chí trong nước, tóm tắt hành động bằng tiếng Việt |
+| `exa-phuc-dap` | Phân loại toàn bộ ý kiến, trả lời tối đa 5 ý kiến mỗi lần; `nature-response` cho trọn bộ thư theo chuẩn chung | Trọn bộ thư phúc đáp, thư gửi biên tập, bản thảo đánh dấu, kèm kế hoạch và bảng tự kiểm tiếng Việt |
+| `exa-trinh-chieu` | Dàn ý slide kèm lời thuyết trình; `nature-paper2ppt` dựng PPTX báo cáo một bài báo | PPTX cho bảo vệ đề cương, luận văn, luận án và hội nghị trong nước, kèm kiểm tra chất lượng |
+| `exa-tim-tai-lieu` | Trích dẫn theo luận điểm, tối đa 10 luận điểm mỗi lần, xuất RIS | Xử lý cả bản thảo theo lô, gộp và loại trùng, xuất BibTeX/nbib |
+| `exa-thong-ke` | Kiểm tra số liệu báo cáo, mọi công thức cỡ mẫu, chọn kiểm định | Rà lỗi thường gặp của luận văn Việt Nam, kiểm tra mô hình đa biến, phân tích dữ liệu thô |
+| `exa-ve-hinh` | Kaplan–Meier, forest plot, ROC, biểu đồ luận văn | Mẫu dựng sẵn sơ đồ CONSORT/STROBE, Bland–Altman, biểu đồ hiệu chuẩn |
+| `exa-viet-bai`, `exa-dich-thuat`, `exa-doc-sau` | Viết từng phần, dịch và chuốt Việt → Anh, thẻ đọc sâu | Chuyển luận văn thành bài báo, dịch Anh → Việt, kiểm tra thuật ngữ toàn bài, đánh giá nguy cơ sai lệch |
+| Chống đạo văn | Quy tắc liêm chính áp dụng mặc định cho mọi skill viết | Tự kiểm tra trùng lặp ngay trên máy theo ngưỡng Turnitin/DoIT, kiểm tra và sửa đạo văn |
 | File Word | Bố cục chung, tự chỉnh lề và giãn dòng theo quy định | Đúng mẫu luận văn và mẫu tạp chí: bìa, mục lục, số trang, kiểu trích dẫn |
-| Các skill khác | Đầy đủ chức năng chính | Một số chế độ nâng cao (xử lý theo lô, phân tích dữ liệu thô, sơ đồ CONSORT...) |
 
 ## 6. Danh mục skill
 
@@ -126,7 +131,7 @@ Bản Community đáp ứng đầy đủ công việc hằng ngày của một n
 | [`exa-viet-bai`](skills/exa-viet-bai/README.md) | Viết bài báo tiếng Anh |
 
 <details>
-<summary><b>Bộ máy nền</b> — 13 skill được các skill <code>exa-*</code> tự gọi, bạn không cần gọi trực tiếp</summary>
+<summary><b>Bộ máy nền</b> — 13 skill gốc mà các skill <code>exa-*</code> tự gọi; cũng gọi trực tiếp được cho nhu cầu theo chuẩn quốc tế chung</summary>
 
 | Skill | Vai trò |
 |---|---|

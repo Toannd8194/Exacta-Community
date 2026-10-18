@@ -48,8 +48,9 @@ Deliver the slide plan as Markdown: slide-by-slide titles, 2–4 bullets, sugges
 table per slide (with source label), and speaker notes. For defences, use a generic
 thesis-presentation outline (title, background, objectives, methods, results by objective,
 discussion, conclusions). Generating the PPTX file, figure extraction into slides, the
-occasion-specific defence arcs, and the PPTX quality audit are Exacta Pro capabilities. If
-requested, follow `../nature-shared/vn/community-edition.md`.
+occasion-specific defence arcs, and the PPTX quality audit are Exacta Pro capabilities; the
+base skill `nature-paper2ppt` still builds a paper-report PPTX. If requested, follow
+`../nature-shared/vn/community-edition.md`.
 
 ### Fonts
 

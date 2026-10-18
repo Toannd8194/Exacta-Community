@@ -8,7 +8,7 @@ Drafts, audits, or revises English responses to reviewers and revision cover let
 
 Vietnamese overlay for [`nature-response`](../nature-response/README_EN.md): loads the base skill, then applies Vietnamese rules.
 
-> Community edition: triage of all comments and replies to up to 5 comments per request. The complete response package and cover letter are in Exacta Pro.
+> Community edition: triage of all comments and replies to up to 5 comments per request. The base skill `nature-response` still drafts a full general-standard package. Pro drafts the complete package, editor letter, and marked manuscript with the Vietnamese plan and author check.
 
 ## Example prompt
 

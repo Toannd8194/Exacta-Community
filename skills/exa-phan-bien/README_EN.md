@@ -8,7 +8,7 @@ Mutually blind mock peer review for biomedical manuscripts, adding review gates 
 
 Vietnamese overlay for [`nature-reviewer`](../nature-reviewer/README_EN.md): loads the base skill, then applies Vietnamese rules.
 
-> Community edition: one complete referee report. Three independent reviewers, synthesis, and in-depth numeric audit are in Exacta Pro.
+> Community edition: one complete referee report with Vietnamese review gates. The base skill `nature-reviewer` still gives three blind reviewers to a general international standard. Pro applies the Vietnamese gates to all three reviewers and the synthesis, with a Vietnamese action summary.
 
 ## Example prompt
 

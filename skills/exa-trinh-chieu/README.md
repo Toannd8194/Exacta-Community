@@ -8,7 +8,7 @@ Tạo file PPTX tiếng Việt (hoặc tiếng Anh) kèm hình gốc và ghi ch�
 
 Lớp phủ tiếng Việt của [`nature-paper2ppt`](../nature-paper2ppt/README_EN.md): nạp skill gốc rồi áp dụng các quy tắc tiếng Việt.
 
-> Bản Community: dàn ý slide kèm lời thuyết trình. File PPTX hoàn chỉnh và khung bảo vệ đề cương/luận văn/luận án có trong Exacta Pro.
+> Bản Community: dàn ý slide kèm lời thuyết trình. Skill nền `nature-paper2ppt` vẫn dựng PPTX báo cáo một bài báo. Bản Pro dựng PPTX cho bảo vệ đề cương, luận văn, luận án và hội nghị trong nước, kèm kiểm tra chất lượng.
 
 ## Ví dụ sử dụng
 

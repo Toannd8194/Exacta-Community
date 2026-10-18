@@ -23,7 +23,7 @@ Establish, in Vietnamese, in one short message:
 
 | Item | Values |
 |---|---|
-| Document type | `de-tai-co-so` (institutional project) / `de-cuong-thac-si` / `de-cuong-ckii` / `de-cuong-cki` / `de-cuong-bsnt` / `de-cuong-tien-si` / `luan-van-full` / `ho-so-dao-duc` |
+| Document type | `de-tai-co-so` (institutional project) / `de-cuong-thac-si` / `de-cuong-ckii` / `de-cuong-cki` / `de-cuong-bsnt` / `de-cuong-tien-si` / `luan-van-full` / `ho-so-dao-duc` / `tom-tat-luan-an` (Pro) |
 | Task | `draft` / `revise` / `audit` |
 | Institution template | Has the institution supplied a template or presentation regulation (quy định trình bày)? If yes, it overrides the default structure |
 | Topic, setting, population, design | From the user |

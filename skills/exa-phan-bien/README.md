@@ -8,7 +8,7 @@ Giả lập phản biện độc lập (mutually blind) cho bản thảo y sinh 
 
 Lớp phủ tiếng Việt của [`nature-reviewer`](../nature-reviewer/README_EN.md): nạp skill gốc rồi áp dụng các quy tắc tiếng Việt.
 
-> Bản Community: một báo cáo phản biện đầy đủ. Ba phản biện độc lập, tổng hợp và kiểm tra số liệu chuyên sâu có trong Exacta Pro.
+> Bản Community: một báo cáo phản biện đầy đủ theo tiêu chí trong nước. Skill nền `nature-reviewer` vẫn cho ba phản biện độc lập theo chuẩn quốc tế chung. Bản Pro áp tiêu chí trong nước cho cả ba phản biện và phần tổng hợp, kèm tóm tắt hành động bằng tiếng Việt.
 
 ## Ví dụ sử dụng
 

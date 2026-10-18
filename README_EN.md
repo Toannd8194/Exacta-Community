@@ -96,17 +96,23 @@ Contact: [facebook.com/dutonezo](https://www.facebook.com/dutonezo)
   customisation to each institution's presentation rules, installation, training, and
   operational support, for a small fee.
 
-Community covers an individual's day-to-day work in full. These modes are part of Pro:
+Community has two layers. The **base engine** (13 upstream `nature-*` skills) is complete and
+can be called directly, to a general international-journal standard. The **Vietnamese layer**
+(12 `exa-*` skills) adds Vietnamese review criteria, explanations, and plans; some of its modes
+are in Exacta Pro:
 
 | Skill | Community | Added in Pro |
 |---|---|---|
-| `exa-de-cuong` | Detailed outline, objective–design–sample-size alignment table | Full-text drafting, audit, doctoral proposals, ethics dossiers, institution templates |
-| `exa-phan-bien` | One complete referee report | Three independent reviewers, synthesis, in-depth numeric audit |
-| `exa-phuc-dap` | Triage of all comments, replies to up to 5 comments per request | Complete response package and cover letter |
-| `exa-trinh-chieu` | Slide outline with speaker notes | Finished PPTX, proposal/thesis/doctoral defence arcs |
-| Plagiarism prevention | Integrity rules on by default in every writing skill | Local similarity self-check against the Turnitin/DoIT limit; check and repair of existing drafts |
-| Word files | General layout; adjust margins and spacing to your rules | Exact thesis and journal layouts: covers, TOC, page numbers, citation style |
-| Other skills | Full core functionality | Some advanced modes (batch processing, raw-data analysis, CONSORT diagrams, ...) |
+| `exa-de-cuong` | Detailed outline, objective–design–sample-size alignment table | Full drafting, checklist audit, doctoral proposals, ethics dossiers |
+| `exa-phan-bien` | One referee report with Vietnamese review gates; `nature-reviewer` gives three blind reviewers to a general international standard | All three reviewers and the synthesis apply the Vietnamese gates, plus a Vietnamese action summary |
+| `exa-phuc-dap` | Triage of all comments, replies to up to 5 per request; `nature-response` gives a full general-standard package | Complete response package, editor letter, marked manuscript, with Vietnamese plan and author check |
+| `exa-trinh-chieu` | Slide outline with speaker notes; `nature-paper2ppt` builds a paper-report PPTX | PPTX for proposal, thesis, and doctoral defences and Vietnamese conferences, with quality audit |
+| `exa-tim-tai-lieu` | Claim-by-claim citations, up to 10 claims per request, RIS export | Whole-manuscript batches with merging and de-duplication, BibTeX/nbib |
+| `exa-thong-ke` | Audit of reported statistics, all sample-size formulas, test selection | Common-errors audit for Vietnamese theses, multivariable model check, raw-data analysis |
+| `exa-ve-hinh` | Kaplan–Meier, forest plot, ROC, thesis charts | Ready templates for CONSORT/STROBE flow, Bland–Altman, calibration plots |
+| `exa-viet-bai`, `exa-dich-thuat`, `exa-doc-sau` | Section drafting, Vietnamese → English translation and polishing, deep-reading card | Thesis-to-article conversion, English → Vietnamese, whole-manuscript terminology check, risk-of-bias assessment |
+| Plagiarism | Integrity rules applied by default in every writing skill | Local similarity self-check against the Turnitin/DoIT limit, plagiarism check and repair |
+| Word files | General layout; adjust margins and spacing yourself | Exact thesis and journal templates: covers, TOC, page numbers, citation style |
 
 ## 6. Skill catalogue
 
@@ -126,7 +132,7 @@ Community covers an individual's day-to-day work in full. These modes are part o
 | [`exa-viet-bai`](skills/exa-viet-bai/README_EN.md) | English manuscript drafting |
 
 <details>
-<summary><b>Base engine</b> — 13 skills called by the <code>exa-*</code> skills; you do not need to call them directly</summary>
+<summary><b>Base engine</b> — 13 upstream skills the <code>exa-*</code> skills call; also callable directly for general international-standard work</summary>
 
 | Skill | Role |
 |---|---|

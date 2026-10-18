@@ -40,8 +40,9 @@ do not create a separate list that bypasses tiering.
 Produce **one** complete referee report (Reviewer 1) that runs every gate in
 `references/vn-manuscript-review-gates.md` and the base skill's severity tiers. Skip the
 additional mutually blind reviewers, the post-review synthesis, the forensic consistency audit,
-and the author action summary: these are Exacta Pro capabilities. If the user asks for them,
-follow `../nature-shared/vn/community-edition.md`.
+and the author action summary: with the Vietnamese gates, these are Exacta Pro capabilities.
+The base skill `nature-reviewer` still provides them to a general international standard. If
+the user asks for them, follow `../nature-shared/vn/community-edition.md`.
 
 ### Data handling
 

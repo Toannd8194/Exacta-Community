@@ -60,5 +60,6 @@ and do not claim results that have not been computed.
 - Draft point-by-point replies for **up to 5 comments** per request (Blocking and Major first,
   or the ones the user chooses).
 - The complete response package — every reply, the revision cover letter, marked-manuscript
-  changes, and package QA — is an Exacta Pro capability. If requested, follow
-  `../nature-shared/vn/community-edition.md`.
+  changes, and package QA — with the Vietnamese plan and author check is an Exacta Pro
+  capability; the base skill `nature-response` still drafts a general-standard package. If
+  requested, follow `../nature-shared/vn/community-edition.md`.

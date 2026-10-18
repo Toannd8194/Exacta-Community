@@ -8,7 +8,7 @@ Builds Vietnamese (or English) PPTX decks with source figures and speaker notes 
 
 Vietnamese overlay for [`nature-paper2ppt`](../nature-paper2ppt/README_EN.md): loads the base skill, then applies Vietnamese rules.
 
-> Community edition: slide outline with speaker notes. Finished PPTX files and defence arcs are in Exacta Pro.
+> Community edition: slide outline with speaker notes. The base skill `nature-paper2ppt` still builds a paper-report PPTX. Pro builds PPTX for proposal, thesis, and doctoral defences and Vietnamese conferences, with a quality audit.
 
 ## Example prompt
 
